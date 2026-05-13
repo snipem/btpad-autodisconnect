@@ -1,0 +1,11 @@
+[Unit]
+Description=Bluetooth gamepad auto-disconnect
+After=bluetooth.target
+
+[Service]
+ExecStart=%h/.local/bin/btpad-autodisconnect
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
