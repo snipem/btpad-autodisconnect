@@ -1,5 +1,9 @@
 # btpad-autodisconnect
 
+[![👍 Works for me!](https://img.shields.io/badge/%F0%9F%91%8D-Works%20for%20me!-4a7a3a?labelColor=000000&style=flat)](https://github.com/snipem/btpad-autodisconnect)
+
+> *This is personal software. While most of it was written by AI, I am the architect. It solves a problem and generally just works for me.*
+
 Automatically disconnects Bluetooth gamepads after a configurable idle timeout on Linux.
 
 Monitors raw input events via `evdev`. When no meaningful input is seen for the configured
